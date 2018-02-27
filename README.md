@@ -4,11 +4,11 @@ to create application.
 
 Goal :
 
- -Code Abstraction
- -Modularity
- -TDD
- -Code Cleaniness
- -Fast development
+    -Code Abstraction
+    -Modularity
+    -TDD
+    -Code Cleaniness
+    -Fast development
 
 
 Core Essentials Components :
@@ -35,9 +35,4 @@ Reactive programming: RX JAVA 2
 
 Networking: Retrofit 2
 
-View Injection: Field and method binding for Android views
-
-
-
-
-
+View Injection: Field and method binding for Android views.
