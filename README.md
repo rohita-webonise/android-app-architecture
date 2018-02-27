@@ -3,20 +3,23 @@ This is a Base application architecture for android which used all the latest fr
 to create application.
 
 Goal :
+
  -Code Abstraction
  -Modularity
  -TDD
  -Code Cleaniness
- -
+ -Fast development
 
 
 Core Essentials Components :
 
-Android Architecture Components 1.0 Stable
+Android Architecture Components 1.0 Stable:
+
     Activity:
         -LifCycle Owner
         -View Model
         -Live & Mutable Data
+
     Database:
         -Room: a SQLite object mapping library
 

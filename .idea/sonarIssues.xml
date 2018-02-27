@@ -298,6 +298,21 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/res/drawable/circle_indicator.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/res/drawable/circle_indicator_selected.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/res/drawable/circle_indicator_selector.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/res/layout/activity_baby_profile.xml">
           <value>
             <set />
@@ -318,12 +333,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/res/values/dimens.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/res/values/strings.xml">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/res/values/styles.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/README.md">
           <value>
             <set />
           </value>
