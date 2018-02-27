@@ -1,0 +1,105 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    defaultConfig {
+        applicationId "com.weboniselab.android"
+        minSdkVersion 16
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+
+    packagingOptions {
+        exclude 'META-INF/rxjava.properties'
+    }
+
+    buildTypes {
+        debug {
+            buildConfigField("String", "BASE_URL", "\"http://www.mocky.io/v2\"")
+            buildConfigField "int", "LIMIT", "100"
+            buildConfigField "String", "BASEURL", "\"https://maps.googleapis.com/maps/api/\""
+            buildConfigField "int", "CACHETIME", "432000" // 5days
+            buildConfigField "String", "API_KEY", "\"AIzaSyCefwvVJdjzYENGMYxVmhM1QJsDYqy40Fk\""
+        }
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            buildConfigField("String", "BASE_URL", "\"http://www.mocky.io/v2\"")
+            buildConfigField("String", "API_KEY", "\"ABCXYZ123TEST\"")
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+
+    // android support libraries
+    compile "com.android.support:appcompat-v7:$rootProject.supportLibraryVersion"
+    compile "com.android.support:recyclerview-v7:$rootProject.supportLibraryVersion"
+    compile "com.android.support:cardview-v7:$rootProject.supportLibraryVersion"
+    compile "com.android.support:design:$rootProject.supportLibraryVersion"
+    compile "com.android.support:support-vector-drawable:$rootProject.supportLibraryVersion"
+    compile "com.android.support:animated-vector-drawable:$rootProject.supportLibraryVersion"
+
+    //Constraint layout
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+
+    // database
+    compile "android.arch.persistence.room:rxjava2:$rootProject.roomDatabase"
+    annotationProcessor "android.arch.persistence.room:compiler:$rootProject.roomDatabase"
+
+    // font
+    compile "uk.co.chrisjenx:calligraphy:$rootProject.calligraphyVersion"
+
+    // image
+    compile "com.github.bumptech.glide:glide:$rootProject.glideVersion"
+
+    // parser
+    compile "com.google.code.gson:gson:$rootProject.gsonVersion"
+
+    // dependency injection
+    compile "com.google.dagger:dagger:$rootProject.dagger2Version"
+    annotationProcessor "com.google.dagger:dagger-compiler:$rootProject.dagger2Version"
+    annotationProcessor "com.google.dagger:dagger-android-processor:$rootProject.dagger2Version"
+    compile "com.google.dagger:dagger-android-support:$rootProject.dagger2Version"
+
+    //binding with butter knife
+    compile "com.jakewharton:butterknife:$rootProject.butterKnifeVersion"
+    annotationProcessor "com.jakewharton:butterknife-compiler:$rootProject.butterKnifeVersion"
+
+    // reactive
+    compile "io.reactivex.rxjava2:rxjava:$rootProject.rxjava2Version"
+    compile "io.reactivex.rxjava2:rxandroid:$rootProject.rxandroidVersion"
+
+    //retrofit
+    compile "com.squareup.retrofit2:retrofit:$rootProject.retrofitVersion"
+    compile "com.squareup.retrofit2:adapter-rxjava2:$rootProject.retrofitVersion"
+    compile "com.squareup.retrofit2:converter-gson:$rootProject.retrofitVersion"
+    compile "com.squareup.retrofit2:converter-scalars:$rootProject.retrofitVersion"
+
+    // logger
+    compile "com.jakewharton.timber:timber:$rootProject.timberVersion"
+
+    // dependencies for local unit tests
+    testCompile "junit:junit:$rootProject.ext.junitVersion"
+    testCompile "org.mockito:mockito-core:$rootProject.mockitoVersion"
+    testAnnotationProcessor "com.google.dagger:dagger-compiler:$rootProject.dagger2Version"
+
+    // UI Testing
+    androidTestCompile "com.android.support.test.espresso:espresso-core:$rootProject.espressoVersion"
+    androidTestCompile "com.android.support.test.espresso:espresso-intents:$rootProject.espressoVersion"
+    androidTestCompile "org.mockito:mockito-core:$rootProject.mockitoVersion"
+    androidTestAnnotationProcessor "com.google.dagger:dagger-compiler:$rootProject.dagger2Version"
+
+    //Viewmodel
+    compile "android.arch.lifecycle:extensions:$rootProject.lifecycle"
+    annotationProcessor "android.arch.lifecycle:compiler:$rootProject.lifecycle"
+
+}
+
+configurations.all {
+    resolutionStrategy.force "com.android.support:support-annotations:$supportLibraryVersion"
+    resolutionStrategy.force 'com.google.code.findbugs:jsr305:1.3.9'
+}

@@ -1,0 +1,964 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="/Dummy.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/fragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/AndroidManifest.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/java/cocooncam/wearlesstech/com/cocooncam/AppController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/java/cocooncam/wearlesstech/com/cocooncam/BaseActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/java/cocooncam/wearlesstech/com/cocooncam/camerasdk/CamObj.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/java/cocooncam/wearlesstech/com/cocooncam/models/SetupCheckerModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/java/cocooncam/wearlesstech/com/cocooncam/models/SetupCheckerRequest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/java/cocooncam/wearlesstech/com/cocooncam/models/activitymodel/Data.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/java/cocooncam/wearlesstech/com/cocooncam/models/setupcheckermodel/Data.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/java/cocooncam/wearlesstech/com/cocooncam/models/setupcheckermodel/GetSetupCheckerImageModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/java/cocooncam/wearlesstech/com/cocooncam/models/setupcheckermodel/SetupCheckerModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/java/cocooncam/wearlesstech/com/cocooncam/models/setupcheckermodel/SetupCheckerRequest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/java/cocooncam/wearlesstech/com/cocooncam/models/setupcheckermodel/SetupData.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/java/cocooncam/wearlesstech/com/cocooncam/notification/FirebasePushNotificationService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/java/cocooncam/wearlesstech/com/cocooncam/notification/NotificationUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/java/cocooncam/wearlesstech/com/cocooncam/presenter/EnterCameraIDPresenter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/java/cocooncam/wearlesstech/com/cocooncam/presenter/InviteUserPresenter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/java/cocooncam/wearlesstech/com/cocooncam/presenter/SetupCheckerPresenter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/java/cocooncam/wearlesstech/com/cocooncam/utility/AWSUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/java/cocooncam/wearlesstech/com/cocooncam/utility/AmplitudeEvents.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/java/cocooncam/wearlesstech/com/cocooncam/utility/CameraHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/java/cocooncam/wearlesstech/com/cocooncam/utility/ChartConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/java/cocooncam/wearlesstech/com/cocooncam/utility/CocoonUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/java/cocooncam/wearlesstech/com/cocooncam/utility/Constants.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/java/cocooncam/wearlesstech/com/cocooncam/utility/ProgressDialogUtility.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/java/cocooncam/wearlesstech/com/cocooncam/utility/SharedPreferenceManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/java/cocooncam/wearlesstech/com/cocooncam/utility/SocketConnector.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/java/cocooncam/wearlesstech/com/cocooncam/utility/SocketConnectorInterface.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/java/cocooncam/wearlesstech/com/cocooncam/utility/SocketSchedulerReceiver.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/java/cocooncam/wearlesstech/com/cocooncam/utility/WebSocketScheduler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/java/cocooncam/wearlesstech/com/cocooncam/views/ActivityLogActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/java/cocooncam/wearlesstech/com/cocooncam/views/BabyProfileActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/java/cocooncam/wearlesstech/com/cocooncam/views/ChooseConfigureOptionActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/java/cocooncam/wearlesstech/com/cocooncam/views/CocoonCamRadarActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/java/cocooncam/wearlesstech/com/cocooncam/views/ConfigureWifiLightActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/java/cocooncam/wearlesstech/com/cocooncam/views/DeviceDetailsFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/java/cocooncam/wearlesstech/com/cocooncam/views/EditBabyProfileActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/java/cocooncam/wearlesstech/com/cocooncam/views/EditProfileActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/java/cocooncam/wearlesstech/com/cocooncam/views/EnterCameraIDActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/java/cocooncam/wearlesstech/com/cocooncam/views/InvitationActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/java/cocooncam/wearlesstech/com/cocooncam/views/LiveVideoActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/java/cocooncam/wearlesstech/com/cocooncam/views/MountCameraActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/java/cocooncam/wearlesstech/com/cocooncam/views/MountCameraFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/java/cocooncam/wearlesstech/com/cocooncam/views/NavDrawerBaseActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/java/cocooncam/wearlesstech/com/cocooncam/views/NewSettingsActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/java/cocooncam/wearlesstech/com/cocooncam/views/OneKeyConfigActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/java/cocooncam/wearlesstech/com/cocooncam/views/PendingInviteActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/java/cocooncam/wearlesstech/com/cocooncam/views/QRScannerActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/java/cocooncam/wearlesstech/com/cocooncam/views/SetupCheckerActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/java/cocooncam/wearlesstech/com/cocooncam/views/SignUpActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/java/cocooncam/wearlesstech/com/cocooncam/views/SplashScreenActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/java/cocooncam/wearlesstech/com/cocooncam/views/UserAccountActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/java/cocooncam/wearlesstech/com/cocooncam/views/VideoStoryActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/java/cocooncam/wearlesstech/com/cocooncam/views/interfaces/SetupCheckerView.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/java/cocooncam/wearlesstech/com/cocooncam/webservices/APICallInterface.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/java/com/p2p/MSG_CONNECT_STATUS.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/res/layout/activity_baby_profile.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/res/layout/activity_mount_camera.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/res/layout/fragment_mount_camera.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/res/values/colors.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/res/values/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/res/values/styles.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/weboniselab/android/BuildConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/weboniselab/mvpdirxarchitecture/BuildConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/App.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/data/AppDataManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/data/DataManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/data/Retrofit.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/data/RetrofitManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/data/local/db/AppDatabase.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/data/local/db/AppDbHelper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/data/local/db/DbHelper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/data/local/db/dao/UserDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/data/local/db/table/Option.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/data/local/db/table/User.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/data/local/prefs/AppPreferencesHelper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/data/local/prefs/PreferencesHelper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/data/model/db/Option.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/data/model/db/Question.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/data/model/db/User.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/data/model/db/api/LoginRequest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/data/model/db/api/LoginResponse.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/data/remote/ApiEndPoint.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/data/remote/ApiHeader.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/data/remote/ApiHelper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/data/remote/ApiService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/data/remote/AppApiHelper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/data/remote/api/User.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/data/remote/api/UserApi.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/di/ApiInfo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/di/DatabaseInfo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/di/PreferenceInfo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/di/builder/ActivityBuilder.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/di/component/AppComponent.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/di/module/AppModule.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/di/module/NetModule.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/story/SplashActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/ui/main/BaseActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/ui/main/BaseFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/ui/main/BaseFragmentDialog.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/ui/main/BaseViewHolder.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/ui/main/BaseViewModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/ui/story/SplashActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/ui/story/SplashActivityModule.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/ui/story/SplashNavigator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/ui/story/SplashViewModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/ui/story/home/HomeActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/ui/story/home/HomeModule.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/ui/story/home/HomeNavigator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/ui/story/home/HomeViewModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/ui/story/home/place/BlogAdapter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/ui/story/home/place/BlogEmptyItemViewModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/ui/story/home/place/BlogFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/ui/story/home/place/BlogFragmentModule.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/ui/story/home/place/BlogFragmentProvider.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/ui/story/home/place/BlogItemViewModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/ui/story/home/place/BlogNavigator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/ui/story/home/place/BlogViewModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/ui/story/home/place/PlaceAdapter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/ui/story/home/place/PlaceEmptyItemViewModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/ui/story/home/place/PlaceFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/ui/story/home/place/PlaceFragmentProvider.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/ui/story/home/place/PlaceNavigator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/ui/story/home/place/PlaceViewModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/ui/story/login/HomeActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/ui/story/login/LoginActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/ui/story/login/LoginActivityModule.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/ui/story/login/LoginNavigator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/ui/story/login/LoginViewModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/ui/story/splash/SplashActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/ui/story/splash/SplashActivityModule.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/ui/story/splash/SplashNavigator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/ui/story/splash/SplashViewModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/utils/ActivityUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/utils/AppConstants.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/utils/AppLogger.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/utils/AppUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/utils/CommonUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/utils/ViewUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/utils/app/AppUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/utils/app/CommonUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/utils/rx/AppSchedulerProvider.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/utils/rx/SchedulerProvider.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/androidarc/App.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/androidarc/data/AppDataManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/androidarc/data/DataManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/androidarc/data/local/db/AppDatabase.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/androidarc/data/local/db/AppDbHelper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/androidarc/data/local/db/DbHelper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/androidarc/data/local/db/dao/OptionDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/androidarc/data/local/db/dao/QuestionDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/androidarc/data/local/db/dao/UserDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/androidarc/data/local/prefs/PreferencesHelper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/androidarc/data/remote/ApiHelper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/androidarc/data/remote/AppApiHelper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/androidarc/di/builder/ActivityBuilder.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/androidarc/di/component/AppComponent.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/androidarc/di/module/AppModule.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/androidarc/story/SplashActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/androidarc/story/SplashActivityModule.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/androidarc/utils/AppConstants.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/androidarc/utils/AppLogger.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/androidarc/utils/CommonUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/androidarc/utils/NetworkUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/androidarc/utils/ScreenUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/androidarc/utils/ViewAnimationUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/androidarc/utils/ViewUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/content_home.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/content_login.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/content_splash.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/view_progress.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/values/dimens.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/settings.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../android-mvvm-architecture/app/src/main/java/com/mindorks/framework/mvvm/di/builder/ActivityBuilder.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../android-mvvm-architecture/app/src/main/java/com/mindorks/framework/mvvm/di/module/AppModule.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../drf-android-bets/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../drf-android-bets/app/src/main/java/com/drf/bets/component/network/ApiService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../drf-android-bets/app/src/main/java/com/drf/bets/login/datamodel/LoginDataModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/personal/data/UtilityMasterOne/app/src/main/java/com/utilitymaster/one/activity/Favorite.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/personal/data/UtilityMasterOne/app/src/main/java/com/utilitymaster/one/activity/UtilityActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

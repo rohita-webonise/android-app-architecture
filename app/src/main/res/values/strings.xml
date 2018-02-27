@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AndroidAppArchitecture</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="title_activity_home">Home</string>
+
+    <!--play store-->
+    <string name="app_google_play_store_link">"https://play.google.com/store/apps/details?id="</string>
+    <string name="app_market_link">"market://details?id="</string>
+    <string name="title_activity_login">Login</string>
+    <string name="sign_in">Sign In</string>
+</resources>
