@@ -7,7 +7,7 @@ Goal :
  -Modularity
  -TDD
  -Code Cleaniness
- -
+ -Pluggable components
 
 
 Core Essentials Components :
