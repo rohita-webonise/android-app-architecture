@@ -2,39 +2,52 @@
 This is a Base application architecture for android which used all the latest framework , library and programming technique
 to create application.
 
-Goal :
- -Code Abstraction
- -Modularity
- -TDD
- -Code Cleaniness
- -Pluggable components
+    -Code Abstraction
+    -Modularity
+    -TDD
+    -Code Cleaniness
+    -Pluggable components
 
+# Core Essentials Components :
 
-Core Essentials Components :
+# Android Architecture Components 1.0 Stable
 
-Android Architecture Components 1.0 Stable
-    Activity:
-        -LifCycle Owner
-        -View Model
-        -Live & Mutable Data
-    Database:
-        -Room: a SQLite object mapping library
+    -LifCycle Owner
+    -View Model
+    -Live & Mutable Data
 
-Dependency Injection: Dagger 2 used for compile-time approach for dependency injection
+# Database:
+   
+    -Room: a SQLite object mapping library    
 
-    -Activity Injector
+# Dependency Injection: Dagger 2 used for compile-time approach for dependency injection
+
+    -Activity & Fragment Injector
     -Module Injector
-    -Components
+    -Components    
+    -Pluggble component like location,firebase,preferences
 
-Design Patterns : MVVM
+# Design Patterns : 
 
-Reactive programming: RX JAVA 2
+    -MVVM
 
-Networking: Retrofit 2
+# Reactive programming: 
 
-View Injection: Field and method binding for Android views
+    -RX JAVA 2
 
+# Networking: 
+   
+    -Retrofit 2
 
+# View Injection: 
 
+    -Field and method binding for Android views.
+    
+# Unit Tests
 
+    -Mockito
+    
+# Android UI Tests   
 
+    -Espresso
+    
