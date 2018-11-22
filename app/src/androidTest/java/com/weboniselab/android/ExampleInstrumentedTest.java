@@ -1,4 +1,4 @@
-package com.weboniselab.mvpdirxarchitecture;
+package com.weboniselab.android;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

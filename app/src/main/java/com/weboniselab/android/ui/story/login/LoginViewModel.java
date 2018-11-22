@@ -7,6 +7,7 @@ import com.weboniselab.android.data.remote.api.LoginResponse;
 import com.weboniselab.android.data.remote.api.Place;
 import com.weboniselab.android.data.remote.api.UserApi;
 import com.weboniselab.android.ui.main.BaseViewModel;
+import com.weboniselab.android.utils.app.InfoValidator;
 import com.weboniselab.android.utils.rx.SchedulerProvider;
 
 import io.reactivex.Observable;
@@ -16,22 +17,24 @@ import io.reactivex.functions.Consumer;
  * Created by webonise on 1/2/18.
  */
 
-class LoginViewModel extends BaseViewModel<LoginNavigator> {
+public class LoginViewModel extends BaseViewModel<LoginNavigator> {
 
     public LoginViewModel(DataManager dataManager, SchedulerProvider schedulerProvider) {
         super(dataManager, schedulerProvider);
     }
 
 
-    public void doLogin(String email,String password){
+    public boolean doLogin(String email,String password){
         getNavigator().showProgress(true);
-        User user = new User();
+
+        return InfoValidator.isValidEmail(email) && InfoValidator.isNotNullOrBlank(password);
+       /* User user = new User();
         user.setUserId("1");
         user.setEmail(email);
         user.setName(password);
         Observable<Boolean> add = getDataManager().insertUser(user);
         getNavigator().showProgress(false);
-        getNavigator().gotoHome();
+        getNavigator().gotoHome();*/
         /*getCompositeDisposable().add(getDataManager().updateUserInfo(userApi)
                 .subscribeOn(getSchedulerProvider().io())
                 .observeOn(getSchedulerProvider().ui())

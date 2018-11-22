@@ -38,4 +38,10 @@ public class ApiService{
     public Observable<PlaceResults> getCurrentPlace(String address) {
         return mApiHelper.getCurrentPlace(address);
     }
+
+    public String getPlace(){
+        return "indore";
+    }
 }
+
+

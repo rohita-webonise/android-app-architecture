@@ -39,8 +39,6 @@ public class AppDataManager implements DataManager {
         return mApiService;
     }
 
-
-
     @Override
     public Observable<Boolean> insertUser(User user) {
         return mDbHelper.insertUser(user);

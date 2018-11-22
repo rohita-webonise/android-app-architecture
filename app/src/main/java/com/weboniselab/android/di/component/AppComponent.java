@@ -19,6 +19,8 @@ public interface AppComponent {
     @Component.Builder
     interface Builder {
 
+        Builder appModule(AppModule appModule);
+
         @BindsInstance
         Builder application(Application application);
 

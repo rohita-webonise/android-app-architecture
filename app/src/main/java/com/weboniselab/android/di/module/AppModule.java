@@ -19,6 +19,7 @@ import com.weboniselab.android.data.remote.ApiService;
 import com.weboniselab.android.di.ApiInfo;
 import com.weboniselab.android.di.DatabaseInfo;
 import com.weboniselab.android.di.PreferenceInfo;
+import com.weboniselab.android.misc.AppLocationManager;
 import com.weboniselab.android.utils.app.AppConstants;
 import com.weboniselab.android.utils.rx.AppSchedulerProvider;
 import com.weboniselab.android.utils.rx.SchedulerProvider;
@@ -94,6 +95,12 @@ public class AppModule {
         return appPreferencesHelper;
     }
 
+    @Provides
+    @Singleton
+    AppLocationManager provideLocationManager(Context context,AppPreferencesHelper appPreferencesHelper) {
+        return new AppLocationManager(context,appPreferencesHelper);
+    }
+
 
     @Provides
     @Singleton
@@ -148,4 +155,6 @@ public class AppModule {
     ApiService provideApiService(Retrofit retrofit,ApiHelper apiHelper){
         return new ApiService(retrofit,apiHelper);
     }
+
+
 }

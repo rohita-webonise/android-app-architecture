@@ -30,74 +30,97 @@ android {
             buildConfigField("String", "API_KEY", "\"ABCXYZ123TEST\"")
         }
     }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    testOptions {
+        unitTests {
+            includeAndroidResources = true
+        }
+    }
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
 
     // android support libraries
-    compile "com.android.support:appcompat-v7:$rootProject.supportLibraryVersion"
-    compile "com.android.support:recyclerview-v7:$rootProject.supportLibraryVersion"
-    compile "com.android.support:cardview-v7:$rootProject.supportLibraryVersion"
-    compile "com.android.support:design:$rootProject.supportLibraryVersion"
-    compile "com.android.support:support-vector-drawable:$rootProject.supportLibraryVersion"
-    compile "com.android.support:animated-vector-drawable:$rootProject.supportLibraryVersion"
+    implementation "com.android.support:appcompat-v7:$rootProject.supportLibraryVersion"
+    implementation "com.android.support:recyclerview-v7:$rootProject.supportLibraryVersion"
+    implementation "com.android.support:cardview-v7:$rootProject.supportLibraryVersion"
+    implementation "com.android.support:design:$rootProject.supportLibraryVersion"
+    implementation "com.android.support:support-vector-drawable:$rootProject.supportLibraryVersion"
+    implementation "com.android.support:animated-vector-drawable:$rootProject.supportLibraryVersion"
+
+    //Play service
+    implementation "com.google.android.gms:play-services-auth:$rootProject.playService"
+    implementation "com.google.android.gms:play-services-location:$rootProject.playService"
 
     //Constraint layout
-    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
 
     // database
-    compile "android.arch.persistence.room:rxjava2:$rootProject.roomDatabase"
+    implementation "android.arch.persistence.room:rxjava2:$rootProject.roomDatabase"
     annotationProcessor "android.arch.persistence.room:compiler:$rootProject.roomDatabase"
 
     // font
-    compile "uk.co.chrisjenx:calligraphy:$rootProject.calligraphyVersion"
+    implementation "uk.co.chrisjenx:calligraphy:$rootProject.calligraphyVersion"
 
     // image
-    compile "com.github.bumptech.glide:glide:$rootProject.glideVersion"
+    implementation "com.github.bumptech.glide:glide:$rootProject.glideVersion"
 
     // parser
-    compile "com.google.code.gson:gson:$rootProject.gsonVersion"
+    implementation "com.google.code.gson:gson:$rootProject.gsonVersion"
 
     // dependency injection
-    compile "com.google.dagger:dagger:$rootProject.dagger2Version"
+    implementation "com.google.dagger:dagger:$rootProject.dagger2Version"
     annotationProcessor "com.google.dagger:dagger-compiler:$rootProject.dagger2Version"
     annotationProcessor "com.google.dagger:dagger-android-processor:$rootProject.dagger2Version"
-    compile "com.google.dagger:dagger-android-support:$rootProject.dagger2Version"
+    implementation "com.google.dagger:dagger-android-support:$rootProject.dagger2Version"
 
     //binding with butter knife
-    compile "com.jakewharton:butterknife:$rootProject.butterKnifeVersion"
+    implementation "com.jakewharton:butterknife:$rootProject.butterKnifeVersion"
     annotationProcessor "com.jakewharton:butterknife-compiler:$rootProject.butterKnifeVersion"
 
     // reactive
-    compile "io.reactivex.rxjava2:rxjava:$rootProject.rxjava2Version"
-    compile "io.reactivex.rxjava2:rxandroid:$rootProject.rxandroidVersion"
+    implementation "io.reactivex.rxjava2:rxjava:$rootProject.rxjava2Version"
+    implementation "io.reactivex.rxjava2:rxandroid:$rootProject.rxandroidVersion"
 
     //retrofit
-    compile "com.squareup.retrofit2:retrofit:$rootProject.retrofitVersion"
-    compile "com.squareup.retrofit2:adapter-rxjava2:$rootProject.retrofitVersion"
-    compile "com.squareup.retrofit2:converter-gson:$rootProject.retrofitVersion"
-    compile "com.squareup.retrofit2:converter-scalars:$rootProject.retrofitVersion"
+    implementation "com.squareup.retrofit2:retrofit:$rootProject.retrofitVersion"
+    implementation "com.squareup.retrofit2:adapter-rxjava2:$rootProject.retrofitVersion"
+    implementation "com.squareup.retrofit2:converter-gson:$rootProject.retrofitVersion"
+    implementation "com.squareup.retrofit2:converter-scalars:$rootProject.retrofitVersion"
 
     // logger
-    compile "com.jakewharton.timber:timber:$rootProject.timberVersion"
+    implementation "com.jakewharton.timber:timber:$rootProject.timberVersion"
 
     // dependencies for local unit tests
-    testCompile "junit:junit:$rootProject.ext.junitVersion"
-    testCompile "org.mockito:mockito-core:$rootProject.mockitoVersion"
+    testImplementation "junit:junit:$rootProject.ext.junitVersion"
+    testImplementation "org.mockito:mockito-core:$rootProject.mockitoVersion"
     testAnnotationProcessor "com.google.dagger:dagger-compiler:$rootProject.dagger2Version"
 
     // UI Testing
-    androidTestCompile "com.android.support.test.espresso:espresso-core:$rootProject.espressoVersion"
-    androidTestCompile "com.android.support.test.espresso:espresso-intents:$rootProject.espressoVersion"
-    androidTestCompile "org.mockito:mockito-core:$rootProject.mockitoVersion"
+    androidTestImplementation "com.android.support.test.espresso:espresso-core:$rootProject.espressoVersion"
+    androidTestImplementation "com.android.support.test.espresso:espresso-intents:$rootProject.espressoVersion"
+    androidTestImplementation "org.mockito:mockito-core:$rootProject.mockitoVersion"
+    testImplementation "org.powermock:powermock-module-junit4:$rootProject.powerMockVersion"
+    testImplementation "org.powermock:powermock-module-junit4-rule-agent:$rootProject.powerMockVersion"
+    testImplementation "org.powermock:powermock-api-mockito2:$rootProject.powerMock2Version"
+    testImplementation "com.github.fabioCollini.daggermock:daggermock:$rootProject.daggerMock2Version"
+
+    //and/or
+
+    // androidTestImplementation "com.github.fabioCollini.daggermock:daggermock:$rootProject.daggerMock2Version"
+    testImplementation 'org.robolectric:robolectric:3.8'
     androidTestAnnotationProcessor "com.google.dagger:dagger-compiler:$rootProject.dagger2Version"
 
     //Viewmodel
-    compile "android.arch.lifecycle:extensions:$rootProject.lifecycle"
+    implementation "android.arch.lifecycle:extensions:$rootProject.lifecycle"
     annotationProcessor "android.arch.lifecycle:compiler:$rootProject.lifecycle"
-
 }
+
+
 
 configurations.all {
     resolutionStrategy.force "com.android.support:support-annotations:$supportLibraryVersion"
