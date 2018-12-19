@@ -26,8 +26,12 @@ android {
         release {
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-            buildConfigField("String", "BASE_URL", "\"http://www.mocky.io/v2\"")
+
             buildConfigField("String", "API_KEY", "\"ABCXYZ123TEST\"")
+            buildConfigField "int", "LIMIT", "100"
+            buildConfigField "String", "BASEURL", "\"https://maps.googleapis.com/maps/api/\""
+            buildConfigField "int", "CACHETIME", "432000" // 5days
+
         }
     }
     compileOptions {
