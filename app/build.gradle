@@ -14,7 +14,9 @@ android {
     packagingOptions {
         exclude 'META-INF/rxjava.properties'
     }
-
+    lintOptions {
+        abortOnError false
+    }
     buildTypes {
         debug {
             buildConfigField("String", "BASE_URL", "\"http://www.mocky.io/v2\"")
