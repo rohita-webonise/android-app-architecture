@@ -5,9 +5,10 @@ buildscript {
     repositories {
         google()
         jcenter()
+
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.0.1'
+        classpath 'com.android.tools.build:gradle:3.2.1'
         
 
         // NOTE: Do not place your application dependencies here; they belong
@@ -19,6 +20,7 @@ allprojects {
     repositories {
         google()
         jcenter()
+        maven { url "https://jitpack.io" }
     }
 }
 
@@ -36,6 +38,7 @@ ext {
 
     // App dependencies
     supportLibraryVersion = '26.1.0'
+    playService = '16.0.0'
     gsonVersion = '2.8.0'
     calligraphyVersion = '2.2.0'
     glideVersion = '3.7.0'
@@ -49,11 +52,14 @@ ext {
     debugDBVersion = '1.0.0'
     timberVersion = '4.6.1'
     lifecycle = '1.0.0'
-    retrofitVersion = '2.3.0'
+    retrofitVersion = '2.4.0'
     butterKnifeVersion ='8.8.1'
 
     //Test dependencies
     junitVersion = '4.12'
     espressoVersion = '2.2.2'
-    mockitoVersion = '2.7.1'
+    mockitoVersion = '2.7.5'
+    powerMockVersion = '1.7.0'
+    powerMock2Version='1.7.0RC2'
+    daggerMock2Version='0.8.4'
 }

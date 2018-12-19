@@ -18,7 +18,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/BoardView/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/BoardView/app/src/main/java/com/allyants/boardviewexample/MainActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/build/generated/source/buildConfig/staging/debug/cocooncam/wearlesstech/com/cocooncam/BuildConfig.java">
           <value>
             <set />
           </value>
@@ -103,7 +118,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/java/cocooncam/wearlesstech/com/cocooncam/presenter/LoginSignupPresenter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/java/cocooncam/wearlesstech/com/cocooncam/presenter/SetupCheckerPresenter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/java/cocooncam/wearlesstech/com/cocooncam/presenter/SplashScreenPresenter.java">
           <value>
             <set />
           </value>
@@ -243,6 +268,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/java/cocooncam/wearlesstech/com/cocooncam/views/NotificationSettingActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/java/cocooncam/wearlesstech/com/cocooncam/views/OneKeyConfigActivity.java">
           <value>
             <set />
@@ -318,12 +348,32 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/res/layout/activity_camera_update.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/res/layout/activity_live_video.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/res/layout/activity_mount_camera.xml">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/res/layout/fragment_mount_camera.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/res/layout/setup_checker_view.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../CloneRepo/cocooncam-android/CocoonCam/app/src/main/res/layout/switch_ethernet_to_wifi.xml">
           <value>
             <set />
           </value>
@@ -358,12 +408,57 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/build/generated/source/apt/debug/com/weboniselab/android/di/component/DaggerAppComponent.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/weboniselab/android/BuildConfig.java">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/weboniselab/mvpdirxarchitecture/BuildConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/androidTest/java/com/weboniselab/android/DaggerTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/androidTest/java/com/weboniselab/android/ExampleInstrumentedTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/androidTest/java/com/weboniselab/android/LoginTestCase.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/androidTest/java/com/weboniselab/android/TestComponent.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/androidTest/java/com/weboniselab/android/TestDagger.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/androidTest/java/com/weboniselab/android/TestModule.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/androidTest/java/com/weboniselab/android/TestSchedulerProvider.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/androidTest/java/com/weboniselab/mvpdirxarchitecture/ExampleInstrumentedTest.java">
           <value>
             <set />
           </value>
@@ -529,6 +624,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/di/module/NetModule.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/misc/AppLocationManager.java">
           <value>
             <set />
           </value>
@@ -758,6 +858,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/utils/app/InfoValidator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/utils/rx/AppSchedulerProvider.java">
           <value>
             <set />
@@ -938,6 +1043,51 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/test/java/com/weboniselab/android/AppComponentTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/test/java/com/weboniselab/android/AppModuleTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/test/java/com/weboniselab/android/AppTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/test/java/com/weboniselab/android/LoginTestCase.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/test/java/com/weboniselab/android/MainActivityTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/test/java/com/weboniselab/android/MainDaggerTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/test/java/com/weboniselab/android/MainTestCase.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/test/java/com/weboniselab/android/MyRole.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/test/java/com/weboniselab/android/RoboelectricTestMockRule.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/build.gradle">
           <value>
             <set />
@@ -948,12 +1098,162 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../KotlinAppArchitecture/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../KotlinAppArchitecture/app/src/main/java/com/kotlin/app/App.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../KotlinAppArchitecture/app/src/main/java/com/kotlin/app/ItemDetailFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../KotlinAppArchitecture/app/src/main/java/com/kotlin/app/builder/ActivityBuilder.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../KotlinAppArchitecture/app/src/main/java/com/kotlin/app/builder/AppBuilder.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../KotlinAppArchitecture/app/src/main/java/com/kotlin/app/component/AppComponent.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../KotlinAppArchitecture/app/src/main/java/com/kotlin/app/data/AppDataManager.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../KotlinAppArchitecture/app/src/main/java/com/kotlin/app/data/DataManager.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../KotlinAppArchitecture/app/src/main/java/com/kotlin/app/data/local/db/AppDatabase.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../KotlinAppArchitecture/app/src/main/java/com/kotlin/app/data/local/db/AppDbHelper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../KotlinAppArchitecture/app/src/main/java/com/kotlin/app/data/local/db/AppDbHelper.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../KotlinAppArchitecture/app/src/main/java/com/kotlin/app/data/local/db/DbHelper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../KotlinAppArchitecture/app/src/main/java/com/kotlin/app/data/local/db/dao/UserDao.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../KotlinAppArchitecture/app/src/main/java/com/kotlin/app/data/local/db/table/User.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../KotlinAppArchitecture/app/src/main/java/com/kotlin/app/data/local/prefs/AppPreferencesHelper.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../KotlinAppArchitecture/app/src/main/java/com/kotlin/app/data/local/prefs/PreferencesHelper.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../KotlinAppArchitecture/app/src/main/java/com/kotlin/app/data/remote/ApiHelper.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../KotlinAppArchitecture/app/src/main/java/com/kotlin/app/data/remote/ApiService.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../KotlinAppArchitecture/app/src/main/java/com/kotlin/app/data/remote/api/UserApi.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../KotlinAppArchitecture/app/src/main/java/com/kotlin/app/data/remote/api/Viewport.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../KotlinAppArchitecture/app/src/main/java/com/kotlin/app/modules/AppModule.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../KotlinAppArchitecture/app/src/main/java/com/kotlin/app/modules/RemoteModule.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../KotlinAppArchitecture/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../NFHS-RuleBook-Android/app/src/test/java/com/org/nfhs/rulebook/utility/RuleReferenceGeneratorTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../android-mvvm-architecture/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../android-mvvm-architecture/app/src/androidTest/java/com/mindorks/framework/mvvm/ui/login/LoginActivityTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../android-mvvm-architecture/app/src/main/java/com/mindorks/framework/mvvm/di/builder/ActivityBuilder.java">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../android-mvvm-architecture/app/src/main/java/com/mindorks/framework/mvvm/di/module/AppModule.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../android-mvvm-architecture/app/src/main/java/com/mindorks/framework/mvvm/ui/feed/FeedActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../android-mvvm-architecture/app/src/main/java/com/mindorks/framework/mvvm/ui/main/MainActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../android-mvvm-architecture/app/src/test/java/com/mindorks/framework/mvvm/ui/login/LoginViewModelTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../android-mvvm-architecture/build.gradle">
           <value>
             <set />
           </value>
@@ -969,6 +1269,51 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../drf-android-bets/app/src/main/java/com/drf/bets/login/datamodel/LoginDataModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/flutter-dev/projects/KotlinAppArchitecture/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/flutter-dev/projects/KotlinAppArchitecture/app/src/main/java/com/kotlin/app/App.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/flutter-dev/projects/KotlinAppArchitecture/app/src/main/java/com/kotlin/app/MainActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/flutter-dev/projects/KotlinAppArchitecture/app/src/main/java/com/kotlin/app/di/builder/ActivityBuilder.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/flutter-dev/projects/KotlinAppArchitecture/app/src/main/java/com/kotlin/app/di/component/AppComponent.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/flutter-dev/projects/KotlinAppArchitecture/app/src/main/java/com/kotlin/app/di/module/AppModule.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/flutter-dev/projects/KotlinAppArchitecture/app/src/main/java/com/kotlin/app/story/base/BaseActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/flutter-dev/projects/KotlinAppArchitecture/app/src/main/java/com/kotlin/app/story/base/BaseFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/flutter-dev/projects/KotlinAppArchitecture/app/src/main/java/com/kotlin/app/story/base/BaseViewModel.kt">
           <value>
             <set />
           </value>
