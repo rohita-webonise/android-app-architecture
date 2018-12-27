@@ -3,6 +3,7 @@ package com.weboniselab.android.data.remote;
 import com.weboniselab.android.data.remote.api.Place;
 import com.weboniselab.android.data.remote.api.PlacePhotoResult;
 import com.weboniselab.android.data.remote.api.PlaceResults;
+import com.weboniselab.android.data.remote.pojo.User;
 
 import javax.inject.Inject;
 
@@ -41,6 +42,13 @@ public class ApiService{
 
     public String getPlace(){
         return "indore";
+    }
+
+
+
+
+    public Observable<User> doLogin(User user) {
+        return mApiHelper.login(user);
     }
 }
 

@@ -24,6 +24,7 @@ android {
             buildConfigField "String", "BASEURL", "\"https://maps.googleapis.com/maps/api/\""
             buildConfigField "int", "CACHETIME", "432000" // 5days
             buildConfigField "String", "API_KEY", "\"AIzaSyCefwvVJdjzYENGMYxVmhM1QJsDYqy40Fk\""
+            buildConfigField "String", "API_BASE_URL", "\"https://reqres.in/api/\""
         }
         release {
             minifyEnabled true
@@ -33,6 +34,7 @@ android {
             buildConfigField "int", "LIMIT", "100"
             buildConfigField "String", "BASEURL", "\"https://maps.googleapis.com/maps/api/\""
             buildConfigField "int", "CACHETIME", "432000" // 5days
+            buildConfigField "String", "API_BASE_URL", "\"https://reqres.in/api/\""
 
         }
     }

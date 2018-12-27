@@ -24,7 +24,7 @@ public class HomeViewModel extends BaseViewModel<HomeNavigator> {
     public void getPlaceList(String query) {
         getNavigator().showProgress(true);
         getCompositeDisposable().add(getDataManager().getApiService()
-                .getPlaceList(query)
+                .getPlaceList(query).retry(5)
                 .subscribeOn(getSchedulerProvider().io())
                 .observeOn(getSchedulerProvider().ui())
                 .subscribe(new Consumer<Place>() {

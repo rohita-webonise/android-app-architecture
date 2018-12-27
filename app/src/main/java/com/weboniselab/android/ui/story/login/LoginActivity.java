@@ -9,6 +9,7 @@ import android.widget.EditText;
 import android.widget.ProgressBar;
 
 import com.weboniselab.android.R;
+import com.weboniselab.android.data.remote.pojo.User;
 import com.weboniselab.android.ui.main.BaseActivity;
 import com.weboniselab.android.ui.main.BaseViewModel;
 import com.weboniselab.android.ui.story.home.HomeActivity;
@@ -88,7 +89,11 @@ public class LoginActivity extends BaseActivity<LoginViewModel> implements Login
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.btnSignIn: {
-                mLoginViewModel.doLogin("anvekar.rohti@gmail.com","Rohit Anvekar");
+                User user = new User();
+                user.setEmail(edtUserName.getText().toString());
+                user.setPassword(edtPassword.getText().toString());
+
+                mLoginViewModel.doLogin(user);
                 break;
             }
         }

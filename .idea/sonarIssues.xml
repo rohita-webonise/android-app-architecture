@@ -598,6 +598,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/data/remote/pojo/User.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/di/ApiInfo.java">
           <value>
             <set />
@@ -1218,7 +1223,32 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../NFHS-RuleBook-Android/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../NFHS-RuleBook-Android/app/src/main/java/com/org/nfhs/rulebook/presenter/SearchBookPresenter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../NFHS-RuleBook-Android/app/src/main/java/com/org/nfhs/rulebook/view/activity/LoginActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../NFHS-RuleBook-Android/app/src/test/java/com/org/nfhs/rulebook/presenter/AboutNFHSPresenterTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../NFHS-RuleBook-Android/app/src/test/java/com/org/nfhs/rulebook/utility/RuleReferenceGeneratorTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../NFHS-RuleBook-Android/build.gradle">
           <value>
             <set />
           </value>
