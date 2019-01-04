@@ -408,6 +408,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/build/generated/source/apt/debug/com/weboniselab/android/data/local/db/dao/UserDao_Impl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/build/generated/source/apt/debug/com/weboniselab/android/di/component/DaggerAppComponent.java">
           <value>
             <set />
@@ -583,7 +588,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/data/remote/ApiStatus.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/data/remote/AppApiHelper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/data/remote/BaseResponse.java">
           <value>
             <set />
           </value>
@@ -599,6 +614,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/data/remote/pojo/User.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/data/remote/pojo/UserApi.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/data/remote/pojo/UserData.java">
           <value>
             <set />
           </value>

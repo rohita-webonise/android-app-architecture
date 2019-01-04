@@ -3,11 +3,13 @@ package com.weboniselab.android.data.remote;
 import com.weboniselab.android.data.remote.api.Place;
 import com.weboniselab.android.data.remote.api.PlacePhotoResult;
 import com.weboniselab.android.data.remote.api.PlaceResults;
-import com.weboniselab.android.data.remote.pojo.User;
+import com.weboniselab.android.data.remote.pojo.UserApi;
+import com.weboniselab.android.data.remote.pojo.UserData;
 
 import javax.inject.Inject;
 
 import io.reactivex.Observable;
+import retrofit2.Response;
 import retrofit2.Retrofit;
 
 /**
@@ -47,8 +49,12 @@ public class ApiService{
 
 
 
-    public Observable<User> doLogin(User user) {
-        return mApiHelper.login(user);
+    public Observable<Response<UserApi>> doLogin(UserApi userApi) {
+        return mApiHelper.login(userApi);
+    }
+
+    public Observable<Response<UserData>> getUserById(String id) {
+        return mApiHelper.getUserById(id);
     }
 }
 

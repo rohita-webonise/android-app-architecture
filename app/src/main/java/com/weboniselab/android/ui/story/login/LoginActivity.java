@@ -3,13 +3,14 @@ package com.weboniselab.android.ui.story.login;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
 
 import com.weboniselab.android.R;
-import com.weboniselab.android.data.remote.pojo.User;
+import com.weboniselab.android.data.remote.pojo.UserApi;
 import com.weboniselab.android.ui.main.BaseActivity;
 import com.weboniselab.android.ui.main.BaseViewModel;
 import com.weboniselab.android.ui.story.home.HomeActivity;
@@ -56,7 +57,6 @@ public class LoginActivity extends BaseActivity<LoginViewModel> implements Login
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         ButterKnife.bind(this);
-        initUiViews();
         mLoginViewModel.setNavigator(this);
         initUiViews();
     }
@@ -67,7 +67,7 @@ public class LoginActivity extends BaseActivity<LoginViewModel> implements Login
 
     @Override
     public void gotoHome() {
-        ActivityUtils.goToNextActivity(this, HomeActivity.class, null, true);
+      ActivityUtils.goToNextActivity(this, HomeActivity.class, null, true);
     }
 
     @Override
@@ -76,8 +76,13 @@ public class LoginActivity extends BaseActivity<LoginViewModel> implements Login
     }
 
     @Override
-    public void apiFailure(Throwable throwable) {
+    public void apiSuccess(Object o) {
+        Log.i("doLogin","apiSuccess");
+    }
 
+    @Override
+    public void apiFailure(Object o) {
+        Log.i("doLogin","apiFailure");
     }
 
     @Override
@@ -89,11 +94,11 @@ public class LoginActivity extends BaseActivity<LoginViewModel> implements Login
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.btnSignIn: {
-                User user = new User();
-                user.setEmail(edtUserName.getText().toString());
-                user.setPassword(edtPassword.getText().toString());
+                UserApi userApi = new UserApi();
+                userApi.setEmail(edtUserName.getText().toString());
+                userApi.setPassword(edtPassword.getText().toString());
 
-                mLoginViewModel.doLogin(user);
+                mLoginViewModel.doLogin(userApi);
                 break;
             }
         }

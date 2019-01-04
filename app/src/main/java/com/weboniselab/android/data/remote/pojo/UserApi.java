@@ -3,7 +3,7 @@ package com.weboniselab.android.data.remote.pojo;
 /**
  * Created by rohit.anvekar on 26/12/18.
  */
-public class User {
+public class UserApi {
 
     private String email;
     private String password;
