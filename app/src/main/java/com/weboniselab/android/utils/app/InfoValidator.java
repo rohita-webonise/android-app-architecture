@@ -1,13 +1,7 @@
 package com.weboniselab.android.utils.app;
 
-import android.text.TextUtils;
-import android.util.Patterns;
-import android.widget.EditText;
-
 import java.util.Collection;
 import java.util.regex.Pattern;
-
-import retrofit2.Response;
 
 
 /**
@@ -25,7 +19,7 @@ public class InfoValidator {
      * @return true if the string is not null or blank, false otherwise
      */
     public static boolean isNotNullOrBlank(String valueToCheck) {
-        return null != valueToCheck && !TextUtils.isEmpty(valueToCheck.trim());
+        return null != valueToCheck && !valueToCheck.trim().equals("");
     }
 
     /**
@@ -45,24 +39,54 @@ public class InfoValidator {
      * @return true if valid email, false otherwise
      */
     public static boolean isValidEmail(String val) {
-        return isNotNullOrBlank(val) && Patterns.EMAIL_ADDRESS.matcher(val).matches();
+        Pattern emailPattern = Pattern.compile(AppConstants.Patterns.EMAIL_PATTERN);
+
+        return (isNotNullOrBlank(val) && emailPattern.matcher(val).matches());
     }
 
-    public static boolean isValidResponse(Response response) {
-        return null != response && response.isSuccessful() && null != response.body();
+
+    /**
+     * Method to check whether password is valid as per regex mention on AppConstants
+     *
+     * @param password
+     * @return
+     */
+    public static boolean isValidPassword(String password) {
+        Pattern passwordPattern = Pattern.compile(AppConstants.Patterns.PASSWORD_PATTERN);
+        if (!isNotNullOrBlank(password)) {
+            return false;
+        } else if (password.length() < 6 || password.length() > 20) {
+            return false;
+        } else if (!passwordPattern.matcher(password).matches()) {
+            return false;
+        }
+        return true;
     }
+
 
     public static boolean isValidZipCode(String zipCode) {
-        return !InfoValidator.isNotNullOrBlank(zipCode) ||
+        return isNotNullOrBlank(zipCode) &&
                 zipCode.length() >= MIN_ZIP_CODE_LENGTH &&
-                        zipCode.length() <= MAX_ZIP_CODE_LENGTH;
+                zipCode.length() <= MAX_ZIP_CODE_LENGTH;
     }
 
     public static boolean isValidMobileNumber(String mobileNumber) {
         final String REGEX_PATTERN_CONTACT_NUMBER =
                 "\\+?(\\d{10,15}|\\(?\\d{3}\\)?[-.\\s]\\d{3}[-.\\s]\\d{4})";
 
-        return !isNotNullOrBlank(mobileNumber) || Pattern.compile(REGEX_PATTERN_CONTACT_NUMBER)
+        return isNotNullOrBlank(mobileNumber) && Pattern.compile(REGEX_PATTERN_CONTACT_NUMBER)
                 .matcher(mobileNumber).matches();
+    }
+
+
+    /**
+     * Method to check whether login credentials are valid as per rule define for the application.
+     *
+     * @param email
+     * @param password
+     * @return
+     */
+    public static boolean isValidLogin(String email, String password) {
+        return isValidEmail(email) && isValidPassword(password);
     }
 }

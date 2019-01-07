@@ -3,7 +3,6 @@ package com.weboniselab.android.ui.story.login;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -15,6 +14,7 @@ import com.weboniselab.android.ui.main.BaseActivity;
 import com.weboniselab.android.ui.main.BaseViewModel;
 import com.weboniselab.android.ui.story.home.HomeActivity;
 import com.weboniselab.android.utils.app.ActivityUtils;
+import com.weboniselab.android.utils.app.InfoValidator;
 
 import javax.inject.Inject;
 
@@ -77,12 +77,12 @@ public class LoginActivity extends BaseActivity<LoginViewModel> implements Login
 
     @Override
     public void apiSuccess(Object o) {
-        Log.i("doLogin","apiSuccess");
+
     }
 
     @Override
     public void apiFailure(Object o) {
-        Log.i("doLogin","apiFailure");
+
     }
 
     @Override
@@ -94,11 +94,12 @@ public class LoginActivity extends BaseActivity<LoginViewModel> implements Login
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.btnSignIn: {
-                UserApi userApi = new UserApi();
-                userApi.setEmail(edtUserName.getText().toString());
-                userApi.setPassword(edtPassword.getText().toString());
-
-                mLoginViewModel.doLogin(userApi);
+                if(InfoValidator.isValidLogin(edtUserName.getText().toString(),edtPassword.getText().toString())) {
+                    UserApi userApi = new UserApi();
+                    userApi.setEmail(edtUserName.getText().toString());
+                    userApi.setPassword(edtPassword.getText().toString());
+                    mLoginViewModel.doLogin(userApi);
+                }else showMessage(R.string.error_invalid_login);
                 break;
             }
         }

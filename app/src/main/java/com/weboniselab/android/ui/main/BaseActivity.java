@@ -10,9 +10,11 @@ import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.annotation.Nullable;
+import android.support.annotation.StringRes;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
+import android.widget.Toast;
 
 import com.weboniselab.android.ui.story.login.LoginActivity;
 import com.weboniselab.android.utils.app.CommonUtils;
@@ -120,4 +122,7 @@ public abstract class BaseActivity<V extends BaseViewModel> extends AppCompatAct
         AndroidInjection.inject(this);
     }
 
+    public void showMessage(@StringRes int messageId){
+        Toast.makeText(this, getString(messageId), Toast.LENGTH_SHORT).show();
+    }
 }
