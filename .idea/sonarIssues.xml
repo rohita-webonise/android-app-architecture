@@ -468,6 +468,21 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/androidTest/java/com/weboniselab/android/ui/story/login/LoginActivityTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/androidTest/java/com/weboniselab/android/ui/story/login/OkHttp3IdlingResource.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/androidTest/java/com/weboniselab/android/ui/story/login/Resource.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/androidTest/java/com/weboniselab/mvpdirxarchitecture/ExampleInstrumentedTest.java">
           <value>
             <set />
@@ -883,6 +898,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/utils/app/AppConstants.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/weboniselab/android/utils/app/AppUtils.java">
           <value>
             <set />
@@ -1119,6 +1139,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/app/src/test/java/com/weboniselab/android/RoboelectricTestMockRule.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/test/java/com/weboniselab/android/utils/app/InfoValidatorTest.java">
           <value>
             <set />
           </value>

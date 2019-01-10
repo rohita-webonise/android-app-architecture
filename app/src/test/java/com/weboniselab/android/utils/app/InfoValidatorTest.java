@@ -1,40 +1,36 @@
 package com.weboniselab.android.utils.app;
 
-import android.text.TextUtils;
-
 import junit.framework.Assert;
-import junit.framework.AssertionFailedError;
 
 import org.junit.Test;
-import org.w3c.dom.Text;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import static org.junit.Assert.*;
 
 /**
  * Created by rohit.anvekar on 7/1/19.
  */
 public class InfoValidatorTest {
 
-    private final String  validEmail = "xyx@gmail.com";
-    private final String  validPassword = "test123@#";
-    private final String  invalidEmail = "xyx@gmail@.com";
-    private final String  invalidPassword = "12345";
-    private final String  invalidMobileNumber = "123456789";
-    private final String  invalidMobileNumber1 = "dsad213";
-    private final String  validMobileNumber = "8976276372";
-    private final String  invalidZipCode = "123";
-    private final String  validZipCode = "41105";
+    private static final String VALID_EMAIL = "xyx@gmail.com";
+    private static final String INVALID_EMAIL = "xyx@gmail@.com";
+    private static final String VALID_PASSWORD = "test123@#";
+    private static final String INVALID_PASSWORD = "12345";
+    private static final String INVALID_MOBILE_NUMBER = "123456789";
+    private static final String INVALID_MOBILE_NUMBER_1 = "dsad213";
+    private static final String VALID_MOBILE_NUMBER = "8976276372";
+    private static final String INVALID_ZIP_CODE = "123";
+    private static final String VALID_ZIP_CODE = "41105";
+    private static final String TEST_STRING = "TEST_STRING";
+    private static final String EMPTY_STRING = "";
 
 
     @Test
     public void isNotNullOrBlank() {
 
         Assert.assertFalse(InfoValidator.isNotNullOrBlank(null));
-        Assert.assertFalse(InfoValidator.isNotNullOrBlank(""));
-        Assert.assertTrue(InfoValidator.isNotNullOrBlank("test"));
+        Assert.assertFalse(InfoValidator.isNotNullOrBlank(EMPTY_STRING));
+        Assert.assertTrue(InfoValidator.isNotNullOrBlank(TEST_STRING));
 
     }
 
@@ -54,11 +50,11 @@ public class InfoValidatorTest {
 
         Assert.assertFalse(InfoValidator.isValidEmail(null));
 
-        Assert.assertFalse(InfoValidator.isValidEmail(""));
+        Assert.assertFalse(InfoValidator.isValidEmail(EMPTY_STRING));
 
-        Assert.assertFalse(InfoValidator.isValidEmail(invalidEmail));
+        Assert.assertFalse(InfoValidator.isValidEmail(INVALID_EMAIL));
 
-        Assert.assertTrue(InfoValidator.isValidEmail(validEmail));
+        Assert.assertTrue(InfoValidator.isValidEmail(VALID_EMAIL));
     }
 
     @Test
@@ -66,11 +62,11 @@ public class InfoValidatorTest {
 
         Assert.assertFalse(InfoValidator.isValidPassword(null));
 
-        Assert.assertFalse(InfoValidator.isValidPassword(""));
+        Assert.assertFalse(InfoValidator.isValidPassword(EMPTY_STRING));
 
-        Assert.assertFalse(InfoValidator.isValidPassword(invalidPassword));
+        Assert.assertFalse(InfoValidator.isValidPassword(INVALID_PASSWORD));
 
-        Assert.assertTrue(InfoValidator.isValidPassword(validPassword));
+        Assert.assertTrue(InfoValidator.isValidPassword(VALID_PASSWORD));
     }
 
 
@@ -79,38 +75,38 @@ public class InfoValidatorTest {
 
         Assert.assertFalse(InfoValidator.isValidZipCode(null));
 
-        Assert.assertFalse(InfoValidator.isValidZipCode(""));
+        Assert.assertFalse(InfoValidator.isValidZipCode(EMPTY_STRING));
 
-        Assert.assertFalse(InfoValidator.isValidZipCode(invalidZipCode));
+        Assert.assertFalse(InfoValidator.isValidZipCode(INVALID_ZIP_CODE));
 
-        Assert.assertTrue(InfoValidator.isValidZipCode(validZipCode));
+        Assert.assertTrue(InfoValidator.isValidZipCode(VALID_ZIP_CODE));
     }
 
     @Test
     public void isValidMobileNumber() {
 
         Assert.assertFalse(InfoValidator.isValidMobileNumber(null));
-        Assert.assertFalse(InfoValidator.isValidMobileNumber(""));
-        Assert.assertFalse(InfoValidator.isValidMobileNumber(invalidMobileNumber));
-        Assert.assertFalse(InfoValidator.isValidMobileNumber(invalidMobileNumber1));
-        Assert.assertTrue(InfoValidator.isValidMobileNumber(validMobileNumber));
+        Assert.assertFalse(InfoValidator.isValidMobileNumber(EMPTY_STRING));
+        Assert.assertFalse(InfoValidator.isValidMobileNumber(INVALID_MOBILE_NUMBER));
+        Assert.assertFalse(InfoValidator.isValidMobileNumber(INVALID_MOBILE_NUMBER_1));
+        Assert.assertTrue(InfoValidator.isValidMobileNumber(VALID_MOBILE_NUMBER));
     }
 
     @Test
     public void isValidLogin() {
 
         Assert.assertFalse(InfoValidator.isValidLogin(null,null));
-        Assert.assertFalse(InfoValidator.isValidLogin(null,""));
-        Assert.assertFalse(InfoValidator.isValidLogin("",null));
+        Assert.assertFalse(InfoValidator.isValidLogin(null, EMPTY_STRING));
+        Assert.assertFalse(InfoValidator.isValidLogin(EMPTY_STRING,null));
 
-        Assert.assertFalse(InfoValidator.isValidLogin("",""));
-        Assert.assertFalse(InfoValidator.isValidLogin(invalidEmail,invalidPassword));
-        Assert.assertFalse(InfoValidator.isValidLogin("",validPassword));
-        Assert.assertFalse(InfoValidator.isValidLogin(validEmail,""));
+        Assert.assertFalse(InfoValidator.isValidLogin(EMPTY_STRING, EMPTY_STRING));
+        Assert.assertFalse(InfoValidator.isValidLogin(INVALID_EMAIL, INVALID_PASSWORD));
+        Assert.assertFalse(InfoValidator.isValidLogin(EMPTY_STRING, VALID_PASSWORD));
+        Assert.assertFalse(InfoValidator.isValidLogin(VALID_EMAIL, EMPTY_STRING));
 
-        Assert.assertFalse(InfoValidator.isValidLogin(validEmail,invalidPassword));
-        Assert.assertFalse(InfoValidator.isValidLogin(invalidEmail,validPassword));
+        Assert.assertFalse(InfoValidator.isValidLogin(VALID_EMAIL, INVALID_PASSWORD));
+        Assert.assertFalse(InfoValidator.isValidLogin(INVALID_EMAIL, VALID_PASSWORD));
 
-        Assert.assertTrue(InfoValidator.isValidLogin(validEmail,validPassword));
+        Assert.assertTrue(InfoValidator.isValidLogin(VALID_EMAIL, VALID_PASSWORD));
     }
 }
