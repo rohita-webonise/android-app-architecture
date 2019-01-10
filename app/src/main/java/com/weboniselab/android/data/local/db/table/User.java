@@ -5,14 +5,17 @@ package com.weboniselab.android.data.local.db.table;
 import android.arch.persistence.room.ColumnInfo;
 import android.arch.persistence.room.Entity;
 import android.arch.persistence.room.PrimaryKey;
+import android.support.annotation.NonNull;
 
 
 @Entity(tableName = "users")
 public class User {
 
-    @PrimaryKey
+
     public long id;
 
+    @PrimaryKey
+    @NonNull
     @ColumnInfo(name = "user_id")
     public String userId;
 
@@ -106,7 +109,7 @@ public class User {
 
     @Override
     public String toString() {
-        return "User{" +
+        return "UserApi{" +
                 "id=" + id +
                 ", userId='" + userId + '\'' +
                 ", name='" + name + '\'' +

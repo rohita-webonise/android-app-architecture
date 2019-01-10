@@ -7,8 +7,11 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.weboniselab.android.R;
+import com.weboniselab.android.data.local.db.table.User;
 import com.weboniselab.android.data.remote.api.Place;
 import com.weboniselab.android.ui.main.BaseActivity;
+
+import java.util.List;
 
 import javax.inject.Inject;
 
@@ -44,6 +47,8 @@ public class HomeActivity extends BaseActivity<HomeViewModel> implements HomeNav
         mHomeViewModel.setNavigator(this);
         getViewModel().getPlaceList("Indore");
         initUiViews();
+
+
     }
 
 
@@ -62,6 +67,15 @@ public class HomeActivity extends BaseActivity<HomeViewModel> implements HomeNav
     }
 
     @Override
+    public void showUserList(List<User> users) {
+        homeTxt.setText("");
+        for (User user : users){
+            homeTxt.append(users.toString()+" \n");
+        }
+
+    }
+
+    @Override
     public void showUser(String userDetails) {
 
     }
@@ -69,6 +83,12 @@ public class HomeActivity extends BaseActivity<HomeViewModel> implements HomeNav
     @Override
     public void apiFailure(Throwable throwable) {
 
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        getViewModel().getUserById("2");
     }
 }
 

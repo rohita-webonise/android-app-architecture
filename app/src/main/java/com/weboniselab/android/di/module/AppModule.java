@@ -136,7 +136,7 @@ public class AppModule {
                 .addConverterFactory(GsonConverterFactory.create())
                 .addConverterFactory(ScalarsConverterFactory.create())
                 .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
-                .baseUrl(BuildConfig.BASEURL)
+                .baseUrl(BuildConfig.API_BASE_URL)
                 .client(okHttpClient)
                 .build();
     }
