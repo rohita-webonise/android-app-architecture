@@ -51,7 +51,7 @@ to create application.
 
     -Espresso
 
-# Static Analyser Tools
+# Static Code Analysis Tools
 
     -Lint 
     -Find bugs
