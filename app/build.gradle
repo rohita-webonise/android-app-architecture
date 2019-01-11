@@ -1,11 +1,11 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 26
+    compileSdkVersion rootProject.compileSdkVersion
     defaultConfig {
         applicationId "com.weboniselab.android"
-        minSdkVersion 16
-        targetSdkVersion 26
+        minSdkVersion rootProject.minSdkVersion
+        targetSdkVersion rootProject.targetSdkVersion
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -24,6 +24,7 @@ android {
             buildConfigField "String", "BASEURL", "\"https://maps.googleapis.com/maps/api/\""
             buildConfigField "int", "CACHETIME", "432000" // 5days
             buildConfigField "String", "API_KEY", "\"AIzaSyCefwvVJdjzYENGMYxVmhM1QJsDYqy40Fk\""
+            buildConfigField "String", "API_BASE_URL", "\"https://reqres.in/api/\""
         }
         release {
             minifyEnabled true
@@ -33,6 +34,7 @@ android {
             buildConfigField "int", "LIMIT", "100"
             buildConfigField "String", "BASEURL", "\"https://maps.googleapis.com/maps/api/\""
             buildConfigField "int", "CACHETIME", "432000" // 5days
+            buildConfigField "String", "API_BASE_URL", "\"https://reqres.in/api/\""
 
         }
     }
@@ -43,7 +45,10 @@ android {
     testOptions {
         unitTests {
             includeAndroidResources = true
+            returnDefaultValues = true
         }
+
+
     }
 }
 

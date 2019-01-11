@@ -3,6 +3,7 @@ package com.weboniselab.android.ui.story.splash;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.ProgressBar;
 
@@ -38,7 +39,6 @@ public class SplashActivity extends BaseActivity<SplashViewModel> implements Spl
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
         ButterKnife.bind(this);
-        initUiViews();
         mSplashViewModel.setNavigator(this);
         initUiViews();
     }
@@ -67,6 +67,7 @@ public class SplashActivity extends BaseActivity<SplashViewModel> implements Spl
 
     @Override
     public void openLoginActivity() {
+        Log.e("openLoginActivity","openLoginActivity");
         ActivityUtils.goToNextActivity(this,LoginActivity.class,null,true);
     }
 

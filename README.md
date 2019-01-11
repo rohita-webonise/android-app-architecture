@@ -12,7 +12,7 @@ to create application.
 
 # Android Architecture Components 1.0 Stable
 
-    -LifCycle Owner
+    -LifeCycle Owner
     -View Model
     -Live & Mutable Data
 
@@ -50,4 +50,10 @@ to create application.
 # Android UI Tests   
 
     -Espresso
+
+# Static Code Analysis Tools
+
+    -Lint 
+    -Find bugs
+
     

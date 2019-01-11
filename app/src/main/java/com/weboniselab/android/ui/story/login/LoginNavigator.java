@@ -14,7 +14,9 @@ public interface LoginNavigator {
 
     void showProgress(boolean isProgressing);
 
-    void apiFailure(Throwable throwable);
+    void apiSuccess(Object o);
+
+    void apiFailure(Object o);
 
 
 }

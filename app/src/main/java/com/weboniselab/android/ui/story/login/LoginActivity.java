@@ -9,10 +9,12 @@ import android.widget.EditText;
 import android.widget.ProgressBar;
 
 import com.weboniselab.android.R;
+import com.weboniselab.android.data.remote.pojo.UserApi;
 import com.weboniselab.android.ui.main.BaseActivity;
 import com.weboniselab.android.ui.main.BaseViewModel;
 import com.weboniselab.android.ui.story.home.HomeActivity;
 import com.weboniselab.android.utils.app.ActivityUtils;
+import com.weboniselab.android.utils.app.InfoValidator;
 
 import javax.inject.Inject;
 
@@ -55,7 +57,6 @@ public class LoginActivity extends BaseActivity<LoginViewModel> implements Login
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         ButterKnife.bind(this);
-        initUiViews();
         mLoginViewModel.setNavigator(this);
         initUiViews();
     }
@@ -66,7 +67,7 @@ public class LoginActivity extends BaseActivity<LoginViewModel> implements Login
 
     @Override
     public void gotoHome() {
-        ActivityUtils.goToNextActivity(this, HomeActivity.class, null, true);
+      ActivityUtils.goToNextActivity(this, HomeActivity.class, null, true);
     }
 
     @Override
@@ -75,7 +76,12 @@ public class LoginActivity extends BaseActivity<LoginViewModel> implements Login
     }
 
     @Override
-    public void apiFailure(Throwable throwable) {
+    public void apiSuccess(Object o) {
+
+    }
+
+    @Override
+    public void apiFailure(Object o) {
 
     }
 
@@ -88,7 +94,12 @@ public class LoginActivity extends BaseActivity<LoginViewModel> implements Login
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.btnSignIn: {
-                mLoginViewModel.doLogin("anvekar.rohti@gmail.com","Rohit Anvekar");
+                if(InfoValidator.isValidLogin(edtUserName.getText().toString(),edtPassword.getText().toString())) {
+                    UserApi userApi = new UserApi();
+                    userApi.setEmail(edtUserName.getText().toString());
+                    userApi.setPassword(edtPassword.getText().toString());
+                    mLoginViewModel.doLogin(userApi);
+                }else showMessage(R.string.error_invalid_login);
                 break;
             }
         }
