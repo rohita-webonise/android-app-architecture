@@ -32,8 +32,8 @@ task clean(type: Delete) {
 ext {
     // Sdk and tools
     minSdkVersion = 16
-    targetSdkVersion = 26
-    compileSdkVersion = 26
+    targetSdkVersion = 28
+    compileSdkVersion = 28
     buildToolsVersion = '26.0.2'
 
     // App dependencies
@@ -53,7 +53,7 @@ ext {
     timberVersion = '4.6.1'
     lifecycle = '1.0.0'
     retrofitVersion = '2.5.0'
-    butterKnifeVersion ='8.8.1'
+    butterKnifeVersion ='10.0.0'
 
     //Test dependencies
     junitVersion = '4.12'
