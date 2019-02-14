@@ -1,7 +1,7 @@
 package com.weboniselab.android.ui.main;
 
 
-import android.arch.lifecycle.ViewModel;
+import androidx.lifecycle.ViewModel;
 
 import com.weboniselab.android.data.DataManager;
 import com.weboniselab.android.data.remote.ApiStatus;

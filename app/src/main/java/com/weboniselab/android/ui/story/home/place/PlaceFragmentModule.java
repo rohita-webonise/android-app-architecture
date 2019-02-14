@@ -2,8 +2,8 @@
 
 package com.weboniselab.android.ui.story.home.place;
 
-import android.arch.lifecycle.ViewModelProvider;
-import android.support.v7.widget.LinearLayoutManager;
+import androidx.lifecycle.ViewModelProvider;
+import androidx.recyclerview.widget.LinearLayoutManager;
 
 import com.weboniselab.android.data.DataManager;
 import com.weboniselab.android.data.remote.api.Result;

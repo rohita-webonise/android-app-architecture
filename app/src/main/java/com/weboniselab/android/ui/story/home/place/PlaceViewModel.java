@@ -1,7 +1,7 @@
 
 package com.weboniselab.android.ui.story.home.place;
 
-import android.arch.lifecycle.MutableLiveData;
+import androidx.lifecycle.MutableLiveData;
 
 import com.weboniselab.android.data.DataManager;
 import com.weboniselab.android.data.remote.api.Place;

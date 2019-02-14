@@ -1,8 +1,8 @@
 
 package com.weboniselab.android.data.local.db;
 
-import android.arch.persistence.room.Database;
-import android.arch.persistence.room.RoomDatabase;
+import androidx.room.Database;
+import androidx.room.RoomDatabase;
 
 import com.weboniselab.android.data.local.db.dao.UserDao;
 import com.weboniselab.android.data.local.db.table.User;
